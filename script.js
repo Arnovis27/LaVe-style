@@ -20,14 +20,14 @@ bgAudio.addEventListener('canplaythrough', () => {
     if (!isAudioReady) {
         isAudioReady = true;
         startBtn.disabled = false;
-        startBtn.innerHTML = "💖 Abre la sorpresa 🎁";
+        startBtn.innerHTML = "Abre la sorpresa";
     }
 });
 
 if (bgAudio.readyState >= 4) {
     isAudioReady = true;
     startBtn.disabled = false;
-    startBtn.innerHTML = "💖 Abre la sorpresa 🎁";
+    startBtn.innerHTML = "Abre la sorpresa";
 }
 
 class Particle {

@@ -56,6 +56,15 @@ body {
     will-change: transform;
 }
 
+.love-date {
+    font-size: clamp(1.2rem, 4vw, 2rem);
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 0 0 10px #ff2a5f, 0 0 20px #ff2a5f;
+    letter-spacing: 2px;
+    margin-top: -5px;
+}
+
 @keyframes floatGif {
     0%, 100% { transform: translateY(0); }
     50% { transform: translateY(-8px); }
