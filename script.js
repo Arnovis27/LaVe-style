@@ -151,6 +151,7 @@ function initHeartPoints() {
 }
 
 function startSurprise() {
+    bgAudio.volume = 0.3;
     bgAudio.play().then(() => {
         welcomeScreen.classList.add('hidden');
         animationStarted = true;
