@@ -151,7 +151,6 @@ function initHeartPoints() {
 }
 
 function startSurprise() {
-    bgAudio.currentTime = 62;
     bgAudio.play().then(() => {
         welcomeScreen.classList.add('hidden');
         animationStarted = true;
